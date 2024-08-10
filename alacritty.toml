@@ -7,7 +7,7 @@ dimensions = { columns = 144, lines = 36}
 
 [font]
 normal = { family= "CodeNewRoman Nerd Font Mono", style="Regular"}
-size = 16
+size = 15
 
 [colors]
 [colors.primary]
