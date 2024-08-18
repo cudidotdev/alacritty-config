@@ -2,16 +2,16 @@ shell = "/bin/zsh"
 
 [window]
 startup_mode = "Windowed"
-dynamic_padding = true
+# dynamic_padding = true
 dimensions = { columns = 144, lines = 36}
 
 [font]
 normal = { family= "CodeNewRoman Nerd Font Mono", style="Regular"}
-size = 15
+size = 22
 
 [colors]
 [colors.primary]
-background = "#1A1D1E"
+background = "#1E2122"
 foreground = "#BDAE94"
 
 [keyboard]
