@@ -2,12 +2,12 @@ shell = "/bin/zsh"
 
 [window]
 startup_mode = "Windowed"
-# dynamic_padding = true
+dynamic_padding = true
 dimensions = { columns = 144, lines = 36}
 
 [font]
 normal = { family= "CodeNewRoman Nerd Font Mono", style="Regular"}
-size = 22
+size = 26
 
 [colors]
 [colors.primary]
@@ -16,3 +16,6 @@ foreground = "#BDAE94"
 
 [keyboard]
 bindings = [{key = "F11", action = "ToggleFullscreen"}]
+
+[cursor]
+style = { shape = "Underline"}
