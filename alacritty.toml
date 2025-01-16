@@ -7,15 +7,27 @@ dimensions = { columns = 144, lines = 36}
 
 [font]
 normal = { family= "CodeNewRoman Nerd Font Mono", style="Regular"}
-size = 26
+# size = 18
+size = 28
 
 [colors]
 [colors.primary]
-background = "#1E2122"
-foreground = "#BDAE94"
+
+background = "#101317"
+foreground = "#37D99E"
+
+[colors.normal]
+black = "#181818"
+red = "#E87979"
+green = "#37D99E"
+yellow = "#E5D487"
+blue = "#5FB0FC"
+magenta = "#C397D8"
+cyan = "#51D0EF"
+white = "#C5C5C6"
 
 [keyboard]
 bindings = [{key = "F11", action = "ToggleFullscreen"}]
 
 [cursor]
-style = { shape = "Underline"}
+style = { shape = "Block"}
