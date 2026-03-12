@@ -4,6 +4,7 @@ shell = "/bin/zsh"
 startup_mode = "Windowed"
 dynamic_padding = true
 dimensions = { columns = 128, lines = 36 }
+option_as_alt = "Both"
 
 [font]
 normal = { family = "FiraCode Nerd Font Mono", style = "Medium" }
