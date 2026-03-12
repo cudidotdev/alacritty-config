@@ -3,31 +3,65 @@ shell = "/bin/zsh"
 [window]
 startup_mode = "Windowed"
 dynamic_padding = true
-dimensions = { columns = 144, lines = 36}
+dimensions = { columns = 128, lines = 36 }
 
 [font]
-normal = { family= "CodeNewRoman Nerd Font Mono", style="Regular"}
-# size = 18
-size = 28
+normal = { family = "FiraCode Nerd Font Mono", style = "Medium" }
+size = 14
+builtin_box_drawing = true
+# size = 26
 
-[colors]
-[colors.primary]
 
-background = "#101317"
-foreground = "#37D99E"
-
-[colors.normal]
-black = "#181818"
-red = "#E87979"
-green = "#37D99E"
-yellow = "#E5D487"
-blue = "#5FB0FC"
-magenta = "#C397D8"
-cyan = "#51D0EF"
-white = "#C5C5C6"
+# [colors]
+# [colors.primary]
+#
+# background = "#1E222A"
+# foreground = "#ABB2BF"
+#
+# [colors.normal]
+# black = "#181818"
+# red = "#E06C75"
+# green = "#98C379"
+# yellow = "#E5C07B"
+# blue = "#61AFEF"
+# magenta = "#C678DD"
+# cyan = "#56B6C2"
+# white = "#ABB2BF"
 
 [keyboard]
-bindings = [{key = "F11", action = "ToggleFullscreen"}]
+bindings = [{ key = "F11", action = "ToggleFullscreen" }]
 
 [cursor]
-style = { shape = "Block"}
+style = { shape = "Block" }
+
+
+[colors.primary]
+background = "#08080b"
+foreground = "#989cb9"
+
+[colors.cursor]
+cursor = "#787c99"
+
+[colors.selection]
+text = "CellForeground"
+background = "#515c7e"
+
+[colors.normal]
+black = "#363b54"
+red = "#f7768e"
+green = "#41a6b5"
+yellow = "#e0af68"
+blue = "#7aa2f7"
+magenta = "#bb9af7"
+cyan = "#7dcfff"
+white = "#787c99"
+
+[colors.bright]
+black = "#363b54"
+red = "#f7768e"
+green = "#41a6b5"
+yellow = "#e0af68"
+blue = "#7aa2f7"
+magenta = "#bb9af7"
+cyan = "#7dcfff"
+white = "#787c99"
